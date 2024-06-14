@@ -80,7 +80,7 @@
                                 <td>{{ $data->id }}</td>
                                 <td>
                                 @if ($data->photoprofile === '')
-                                    <img src="{{ url('storage/images/user.png') }}" width="70" hight="auto" alt="No Photo" class="img-thumbnail">
+                                    <img src="{{ url('user.png') }}" width="70" hight="auto" alt="No Photo" class="img-thumbnail">
                                 @else
                                     <img src="{{ url('storage/'.$data->photoprofile) }}" width="70" hight="auto" alt="{{ $data->photoprofile }}" class="img-thumbnail">
                                 @endif
